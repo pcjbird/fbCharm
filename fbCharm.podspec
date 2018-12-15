@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
     s.name             = "fbCharm"
     s.version          = "1.0.0"
-    s.summary          = "iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得字体混排更为优雅。"
+    s.summary          = "iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得文本混排更为优雅。"
     s.description      = <<-DESC
-    iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得字体混排更为优雅。
+    iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得文本混排更为优雅。
 
     如果您是一位 WEB 开发者，相信您对 CSS 的 font-family 属性一定不会陌生。通常我们会为 font-family 属性设置一长串的字体(家族)列表，就像这样的：
 
