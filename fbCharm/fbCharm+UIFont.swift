@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 /**
- * UIFont
+ * UIFont 扩展
  */
 public extension UIFont {
     convenience init(names: [String], size: CGFloat) {

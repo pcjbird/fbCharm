@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		89EE179D21C4E1A5005F2F56 /* fbCharm.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EE179B21C4E1A5005F2F56 /* fbCharm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89EE17AA21C4E31B005F2F56 /* fbCharm+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE17A921C4E31B005F2F56 /* fbCharm+UIFont.swift */; };
-		89EE17AC21C4EAC5005F2F56 /* CompositedFontString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE17AB21C4EAC5005F2F56 /* CompositedFontString.swift */; };
+		89EE17D621C565ED005F2F56 /* fbCharm+NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE17D521C565ED005F2F56 /* fbCharm+NSMutableAttributedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,10 +17,10 @@
 		89EE179B21C4E1A5005F2F56 /* fbCharm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fbCharm.h; sourceTree = "<group>"; };
 		89EE179C21C4E1A5005F2F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EE17A921C4E31B005F2F56 /* fbCharm+UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fbCharm+UIFont.swift"; sourceTree = "<group>"; };
-		89EE17AB21C4EAC5005F2F56 /* CompositedFontString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositedFontString.swift; sourceTree = "<group>"; };
 		89EE17AD21C54834005F2F56 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		89EE17AE21C54834005F2F56 /* fbCharm.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fbCharm.podspec; sourceTree = "<group>"; };
 		89EE17AF21C54834005F2F56 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		89EE17D521C565ED005F2F56 /* fbCharm+NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fbCharm+NSMutableAttributedString.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				89EE179B21C4E1A5005F2F56 /* fbCharm.h */,
-				89EE17AB21C4EAC5005F2F56 /* CompositedFontString.swift */,
+				89EE17D521C565ED005F2F56 /* fbCharm+NSMutableAttributedString.swift */,
 				89EE17A921C4E31B005F2F56 /* fbCharm+UIFont.swift */,
 				89EE179C21C4E1A5005F2F56 /* Info.plist */,
 			);
@@ -151,8 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89EE17AC21C4EAC5005F2F56 /* CompositedFontString.swift in Sources */,
 				89EE17AA21C4E31B005F2F56 /* fbCharm+UIFont.swift in Sources */,
+				89EE17D621C565ED005F2F56 /* fbCharm+NSMutableAttributedString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

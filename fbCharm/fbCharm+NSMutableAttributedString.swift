@@ -1,17 +1,18 @@
 //
-//  CompositedFontString.swift
+//  fbCharm+NSMutableAttributedString.swift
 //  fbCharm
 //
-//  Created by pcjbird on 2018/12/15.
+//  Created by pcjbird on 2018/12/16.
 //  Copyright © 2018 Zero Status. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 /**
- * 混合字体字符串
+ * NSMutableAttributedString 混合字体字符串扩展
  */
-open class CompositedFontString: NSAttributedString {
+public extension NSMutableAttributedString {
     
     /// 使用字体名称(font-name)列表初始化混合字体字符串
     /// - Parameter text: 文本内容
@@ -20,7 +21,7 @@ open class CompositedFontString: NSAttributedString {
     /// - Parameter kern: 文字间隔，默认不指定文本间隔
     /// - Parameter paragraphStyle: 段落样式，默认不设定段落样式
     /// - Parameter fallback: 指定 fallback 到某种语言的系统字体，默认不设定
-    /// - Returns: 混合字体字符串(NSAttributedString)
+    /// - Returns: 混合字体字符串(NSMutableAttributedString)
     convenience init(text: String, names: [String], size: CGFloat, kern: CGFloat = 0.0, paragraphStyle: NSParagraphStyle? = nil, fallback: String? = nil){
         let font = UIFont(names: names, size: size)
         var attributes = Dictionary<NSAttributedString.Key , Any>()
@@ -48,7 +49,7 @@ open class CompositedFontString: NSAttributedString {
     /// - Parameter kern: 文字间隔，默认不指定文本间隔
     /// - Parameter paragraphStyle: 段落样式，默认不设定段落样式
     /// - Parameter fallback: 指定 fallback 到某种语言的系统字体，默认不设定
-    /// - Returns: 混合字体字符串(NSAttributedString)
+    /// - Returns: 混合字体字符串(NSMutableAttributedString)
     convenience init(text: String, families: [String], size: CGFloat, kern: CGFloat = 0.0, paragraphStyle: NSParagraphStyle? = nil, fallback: String? = nil){
         let font = UIFont(families: families, size: size)
         var attributes = Dictionary<NSAttributedString.Key , Any>()
@@ -77,7 +78,7 @@ open class CompositedFontString: NSAttributedString {
     /// - Parameter kern: 文字间隔，默认不指定文本间隔
     /// - Parameter paragraphStyle: 段落样式，默认不设定段落样式
     /// - Parameter fallback: 指定 fallback 到某种语言的系统字体，默认不设定
-    /// - Returns: 混合字体字符串(NSAttributedString)
+    /// - Returns: 混合字体字符串(NSMutableAttributedString)
     @available(iOS 8.2, *)
     convenience init(text: String, families: [String], size: CGFloat, weight: UIFont.Weight = .regular, kern: CGFloat = 0.0, paragraphStyle: NSParagraphStyle? = nil, fallback: String? = nil){
         let font = UIFont(families: families, size: size, weight: weight)
@@ -96,6 +97,7 @@ open class CompositedFontString: NSAttributedString {
             }
         }
         let attributedString = NSMutableAttributedString(string: text, attributes:attributes)
+        
         self.init(attributedString: attributedString)
     }
 }
