@@ -8,7 +8,7 @@
 [![GitHub release](https://img.shields.io/github/release-date/pcjbird/fbCharm.svg)](https://github.com/pcjbird/fbCharm/releases)
 [![Website](https://img.shields.io/website-pcjbird-down-green-red/https/shields.io.svg?label=author)](https://pcjbird.github.io)
 
-# fbCharm
+# fbCharm (Charm of Fallback)
 ### iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得文本混排更为优雅。
 
 如果您是一位 WEB 开发者，相信您对 CSS 的 font-family 属性一定不会陌生。通常我们会为 font-family 属性设置一长串的字体(家族)列表，就像这样的：
