@@ -82,11 +82,11 @@ class ViewController: UIViewController {
         }
         else {
             if !bParagragh {
-                self.label.font = UIFont(families: ["Lucida Grande", "Baskerville", "Apple SD Gothic Neo"], size: fontSize, weight: bHeavy ? .heavy : .regular)
+                self.label.font = UIFont(families: ["Lucida Grande", "Baskerville", "Apple SD Gothic Neo", "Wawati SC"], size: fontSize, weight: bHeavy ? .heavy : .regular)
                 self.label.text = text
             }
             else{
-                self.label.attributedText = NSMutableAttributedString(text: text, families: ["Lucida Grande", "Baskerville", "Apple SD Gothic Neo"], size: fontSize, weight: bHeavy ? .heavy : .regular, kern: bKern ? 4.0 : 0.0, paragraphStyle:paragraphStyle, fallback: bJPFallback ? "jp" : nil)
+                self.label.attributedText = NSMutableAttributedString(text: text, families: ["Lucida Grande", "Baskerville", "Apple SD Gothic Neo", "Wawati SC"], size: fontSize, weight: bHeavy ? .heavy : .regular, kern: bKern ? 4.0 : 0.0, paragraphStyle:paragraphStyle, fallback: bJPFallback ? "jp" : nil)
                 
             }
         }
