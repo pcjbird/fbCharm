@@ -35,6 +35,8 @@
 
 <p align="center"><img src="demo.gif" title="demo"></p>
 
+<p align="center"><img src="demo.png" title="demo"></p>
+
 ##  安装 / Installation
 
 方法一：`fbCharm` is available through CocoaPods. To install it, simply add the following line to your Podfile:

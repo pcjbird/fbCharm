@@ -15,6 +15,8 @@
 		89EE17CA21C5591A005F2F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EE17C821C5591A005F2F56 /* LaunchScreen.storyboard */; };
 		89EE17D321C55A04005F2F56 /* LucidaGrande.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 89EE17D221C55A04005F2F56 /* LucidaGrande.ttc */; };
 		89EE17D821C64917005F2F56 /* WawaSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89EE17D721C64917005F2F56 /* WawaSC-Regular.otf */; };
+		89EE17DA21C6650E005F2F56 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE17D921C6650E005F2F56 /* NextViewController.swift */; };
+		89EE17DC21C666D3005F2F56 /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89EE17DB21C666D3005F2F56 /* IBMPlexSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		89EE17CB21C5591A005F2F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EE17D221C55A04005F2F56 /* LucidaGrande.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttc; sourceTree = "<group>"; };
 		89EE17D721C64917005F2F56 /* WawaSC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WawaSC-Regular.otf"; sourceTree = "<group>"; };
+		89EE17D921C6650E005F2F56 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		89EE17DB21C666D3005F2F56 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
 		F73352CAC1DCF1D8A0EE1347 /* Pods-fbCharmDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fbCharmDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-fbCharmDemo/Pods-fbCharmDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FABA77907F35669B1DA1DAE5 /* Pods-fbCharmDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fbCharmDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fbCharmDemo/Pods-fbCharmDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +81,7 @@
 				89EE17D121C55A04005F2F56 /* fonts */,
 				89EE17BF21C55918005F2F56 /* AppDelegate.swift */,
 				89EE17C121C55918005F2F56 /* ViewController.swift */,
+				89EE17D921C6650E005F2F56 /* NextViewController.swift */,
 				89EE17C321C55918005F2F56 /* Main.storyboard */,
 				89EE17C621C5591A005F2F56 /* Assets.xcassets */,
 				89EE17C821C5591A005F2F56 /* LaunchScreen.storyboard */,
@@ -90,6 +95,7 @@
 			children = (
 				89EE17D721C64917005F2F56 /* WawaSC-Regular.otf */,
 				89EE17D221C55A04005F2F56 /* LucidaGrande.ttc */,
+				89EE17DB21C666D3005F2F56 /* IBMPlexSans-Regular.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -166,6 +172,7 @@
 				89EE17CA21C5591A005F2F56 /* LaunchScreen.storyboard in Resources */,
 				89EE17C721C5591A005F2F56 /* Assets.xcassets in Resources */,
 				89EE17D821C64917005F2F56 /* WawaSC-Regular.otf in Resources */,
+				89EE17DC21C666D3005F2F56 /* IBMPlexSans-Regular.ttf in Resources */,
 				89EE17C521C55918005F2F56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EE17C221C55918005F2F56 /* ViewController.swift in Sources */,
+				89EE17DA21C6650E005F2F56 /* NextViewController.swift in Sources */,
 				89EE17C021C55918005F2F56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

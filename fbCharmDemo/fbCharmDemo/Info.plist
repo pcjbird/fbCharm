@@ -26,6 +26,7 @@
 	<array>
 		<string>LucidaGrande.ttc</string>
 		<string>WawaSC-Regular.otf</string>
+		<string>IBMPlexSans-Regular.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
