@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "fbCharm"
-    s.version          = "1.0.3"
+    s.version          = "1.0.4"
     s.summary          = "iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得文本混排更为优雅。"
     s.description      = <<-DESC
     iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得文本混排更为优雅。
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.social_media_url = 'http://www.lessney.com'
     s.requires_arc     = true
     s.documentation_url = 'https://github.com/pcjbird/fbCharm/blob/master/README.md'
-    s.screenshot       = 'https://github.com/pcjbird/fbCharm/blob/master/logo.png'
+    s.screenshot       = 'https://github.com/pcjbird/fbCharm/raw/master/logo.png'
 
     s.platform         = :ios, '8.0'
     s.frameworks       = 'Foundation', 'UIKit'
