@@ -8,6 +8,9 @@
 //  框架名称:fbCharm
 //  框架功能:iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得文本混排更为优雅。
 //  修改记录:
+//     pcjbird    2018-12-18  Version:1.0.3 Build:201812180002
+//                            1.更新README.md
+//
 //     pcjbird    2018-12-18  Version:1.0.2 Build:201812180001
 //                            1.更新演示Demo
 //
