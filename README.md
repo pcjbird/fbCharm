@@ -1,4 +1,4 @@
-![logo](logo.png)
+![logo](https://github.com/pcjbird/fbCharm/raw/master/logo.png)
 [![Build Status](http://img.shields.io/travis/pcjbird/fbCharm/master.svg?style=flat)](https://travis-ci.org/pcjbird/fbCharm)
 [![Pod Version](http://img.shields.io/cocoapods/v/fbCharm.svg?style=flat)](http://cocoadocs.org/docsets/fbCharm/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/fbCharm.svg?style=flat)](http://cocoadocs.org/docsets/fbCharm/)
@@ -34,9 +34,9 @@
 
 ## 演示 / Demo
 
-<p align="center"><img src="demo.gif" title="demo"></p>
+<p align="center"><img src="https://github.com/pcjbird/fbCharm/raw/master/demo.gif" title="demo"></p>
 
-<p align="center"><img src="demo.png" title="demo"></p>
+<p align="center"><img src="https://github.com/pcjbird/fbCharm/raw/master/demo.png" title="demo"></p>
 
 ##  安装 / Installation
 
