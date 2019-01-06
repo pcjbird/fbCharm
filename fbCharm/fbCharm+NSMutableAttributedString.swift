@@ -12,7 +12,7 @@ import UIKit
 /**
  * NSMutableAttributedString 混合字体字符串扩展
  */
-public extension NSMutableAttributedString {
+@objc public extension NSMutableAttributedString {
     
     /// 使用字体名称(font-name)列表初始化混合字体字符串
     /// - Parameter text: 文本内容

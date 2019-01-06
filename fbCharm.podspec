@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "fbCharm"
-    s.version          = "1.0.4"
+    s.version          = "1.0.5"
     s.summary          = "iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得文本混排更为优雅。"
     s.description      = <<-DESC
     iOS 上利用 fallback 机制为不同语言的文字 (script) 设定字体，从而使得文本混排更为优雅。

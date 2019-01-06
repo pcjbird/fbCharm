@@ -12,7 +12,7 @@ import UIKit
 /**
  * UIFont 扩展
  */
-public extension UIFont {
+@objc public extension UIFont {
     convenience init(names: [String], size: CGFloat) {
         
         if names.first != nil {
