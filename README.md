@@ -3,8 +3,6 @@
 [![Pod Version](http://img.shields.io/cocoapods/v/fbCharm.svg?style=flat)](http://cocoadocs.org/docsets/fbCharm/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/fbCharm.svg?style=flat)](http://cocoadocs.org/docsets/fbCharm/)
 [![Pod License](http://img.shields.io/cocoapods/l/fbCharm.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![CocoaPods](https://img.shields.io/cocoapods/at/fbCharm.svg)](https://github.com/pcjbird/fbCharm)
-[![CocoaPods](https://img.shields.io/cocoapods/dt/fbCharm.svg)](https://github.com/pcjbird/fbCharm)
 [![GitHub release](https://img.shields.io/github/release/pcjbird/fbCharm.svg)](https://github.com/pcjbird/fbCharm/releases)
 [![GitHub release](https://img.shields.io/github/release-date/pcjbird/fbCharm.svg)](https://github.com/pcjbird/fbCharm/releases)
 [![Website](https://img.shields.io/website-pcjbird-down-green-red/https/shields.io.svg?label=author)](https://pcjbird.github.io)
